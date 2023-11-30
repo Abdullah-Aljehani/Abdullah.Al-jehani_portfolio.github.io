@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio webstie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97d5262324.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo_clipdrop-background-removal.png" class="logo" width="100">
+            <ul id="sidemenu">
+                <li><a href="#headr">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Programmer & Web Designer</p>
+            <h1>Hi, I'm <span>Abdullah</span><!--Al-jehani--> <br>from saudi arabia</h1>
+        </div>
+    </div>
+ </div>
+ <!----------about------------>
+ <div id="about">
+    <div class="contanir">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/1000047228.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About me</h1>
+                <p>A passionate and results-oriented recent graduate from the University of Jeddah, I am seeking an entry-level position in the IT field where I can utilize my skills and knowledge to make a significant impact.
+                    With a strong background in programming, web design, and problem-solving, I am confident in my ability to contribute to the success of any organization I join.</p>
+                <p>My proficiency in various programming languages, including Python, Java, C++, HTML, CSS, and JavaScript, coupled with my expertise in web design tools and techniques, makes me a versatile asset to any team.
+                    Beyond my technical skills, I am a highly motivated and organized individual with exceptional communication and interpersonal skills. </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Soft Skills')">Soft Skills</p>
+                    <p class="tab-links" onclick="opentab('Interests')">Interests</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills"> <!--skills-->
+                    <ul>
+                        <li><span>Programming</span><br>Python, Java, C++.</li>
+                        <li><span>Web Design</span><br>HTML, CSS, JavaScript.</li>
+                        <li><span>Computer Skills</span><br>Microsoft Office, Adobe Creative Suite.</li>
+                        <li><span>Project Management Skills</span><br>Ability to manage projects effectively, (ERP) Proficiency.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience"><!--Experience-->
+                    <ul>
+                        <li><span>Web Developer</span><br>Developed and designed websites.</li>
+                        <li><span>Web Design</span><br>Worked with clients to understand their requirements and create websites that met their needs.</li>
+                        <li><span>Work Experience</span><br>IT Support Specialist, Court of Jeddah (2023-2024)<br>Collaborated with the team to successfully implement projects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education"><!--Education-->
+                    <ul>
+                        <li><span>Bachelor</span><br>Management Information Systems, University of Jeddah<br>GPA: 3.99 </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Soft Skills"><!--Soft Skills-->
+                    <ul>
+                        <li><span>Problem-solving skills</span><br>Demonstrates the ability to identify, analyze, and resolve complex problems effectively.</li>
+                        <li><span>Analytical skills</span><br>Gathers and analyzes information to identify patterns, trends, and insights.</li>
+                        <li><span>Decision-making skills</span><br>Makes sound and timely decisions based on analysis and consideration of relevant factors.</li>
+                        <li><span>Leadership skills</span><br>Inspires, motivates, and guides others to achieve common goals.</li>
+                        <li><span>Communication skills</span><br>Communicates effectively and persuasively with diverse audiences, both verbally and in writing.</li>
+                        <li><span>Time Management skills</span><br>Prioritizes tasks, manages time effectively, and meets deadlines under pressure.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Interests"> <!--Interests-->
+                    <ul>
+                        <li><span>New Technology.</span><br>Ai technology(ChatGPT,Bard)</li>
+                        <li><span>Business.</span><br> Public Investment Fund</li>
+                        <li><span>Programming.</span><br>Learn new languages(apple-Swift,C#)</li>
+                        <li><span>Learn more about information security. </span><br>Cyber security(academy.hsoub)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+<!----------Portfolio--------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Logo_clipdrop-background-removal.png">
+                <div class="layer">
+                    <h3 herf="#headr"> portfolio </h3>
+                </div>
+            </div>
+
+            <div class="work-list-right"></div>
+        </div>
+    </div>   
+</div>
+<!---------------Contact--------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me </h1>
+                <p><i class="fa fa-paper-plane"></i>Abdullah.aljehnai20@gmail.com</p>
+                <p><i class="fa solid fa-phone-square"></i>+966580272764</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abdullah-aljehani-4112331a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://x.com/K3jol?t=Y32VRX-taOSjcM702GcpEw&s=09" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/k3jol?utm_source=qr&igshid=YzU1NGVlODEzOA==" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+                <a href="images/Abdullah Aljehani CV.pdf" Download target="_blank" class="btn btn2">Download CV</a>
+            </div>
+            <!----<div class="contact-right"> ---->
+                <div class="containar">
+                    <div class="planet"></div>
+                    <div class="satellite"></div>
+                </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Abdullah Al-jehnai.</i></p>
+    </div>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }  
+    function closemenu(){
+        sidemenu.style.right = "-300px"
+    }
+
+
+</script>
+
+
+
+
+</body>
+</html>
